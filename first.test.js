@@ -4,3 +4,4 @@ test('description', ()=>{
 });
 
 test('description', () => expect(obj.first(2,2)).not.toBe(8));//expect first function to return not: 8;
+test('expecting null value', () => expect(obj.nullFunction()).toBeNull());
