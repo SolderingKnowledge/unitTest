@@ -11,3 +11,11 @@ or if you git cloned and installing then ```npm install``` then that is it! Don'
 ``` npm test``` to run jest test
 
 ```jest first.test.js --watch``` if you installed jest globally
+
+```json
+package.json:
+
+ "scripts": {
+    "test": "jest --watch *.js" // will run in watch mode and have the test running constantly
+  },
+```
