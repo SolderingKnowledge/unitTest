@@ -47,3 +47,15 @@ mount()//does full DOM rendering, use cases like interacting with APIs where usi
 
 render()// used for rendering static HTML uses Cherio library under the hood
 ```
+
+## Coverage report:
+
+```bash
+npm test -- --coverage #shows the coverage report
+```
+
+## Snapshot:
+
+```js
+toMatchSnapshot() //generates __snapshot__ folder automatically with bunch of snap files
+```
