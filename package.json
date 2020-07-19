@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "jest"
+    "test": "jest --watch *.js"
   },
   "browserslist": {
     "production": [
@@ -28,6 +28,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^24.8.0"
   }
 }

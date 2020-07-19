@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { shallow, mount, render } from "enzyme";
 class Home extends Component {
     render(){
         return (
